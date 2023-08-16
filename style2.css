@@ -1,0 +1,130 @@
+.main{
+    margin-left: 15%;
+    background-color: black;
+}
+.navbar {
+    overflow: visible;
+    background-color:black;
+    background-image: url("g8.jpg");
+    position: fixed;
+    height: 100%;
+    box-shadow: 8px 10px 16px 15px rgba(0,0.2,0,0);
+    padding: 5%;
+  }
+
+  .navbar img{
+    width: 50px;
+    height: 50px;
+  }
+  .navbar a {
+    float: left;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+   .navbar a:hover, .dropdown:hover .dropbtn {
+    color:orangered;
+    border: 3px solid orangered;
+    transition-duration: 1s;
+  }
+
+  .home
+{
+    color: white;
+    background-image: url("g5.jpg");
+    background-size: 100% 85%;
+    padding: 5%;
+    height: 200px;
+    width: 90%;
+
+}
+
+.cont{
+    display: flex;
+    padding:50px 20px;
+    color: white;
+    padding: 5%;
+    background-image:url("g2.jpg");
+    background-size: cover;
+    height: 50%;
+    width: 90%;
+}
+.cont p{
+    width: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 5%;
+}
+.skl{
+    color: white;
+    padding: 5%;
+    background-image:url("g3.jpg");
+    background-size:cover;
+}
+.skl progress{
+  padding: 25px;
+    width: 50%;
+    height:15px;
+    color: white;
+
+}
+.skl p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.cer{
+    background-image: url("g4.jpg");
+    background-size: 100% 100%;
+    padding: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+
+}
+.pro{
+    background-image: url("g1.jpg");
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 5%;
+    background-size: 100% 100%;
+}
+#resume{
+    background-image: url("g6.jpg");
+    background-size: 100% 100%;
+    padding: 5%;
+    color: white;
+}
+.res h1{
+    font-size: 32px;
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    text-decoration: underline;
+}
+.res .bttn{
+    display: flex;
+    border: 2px solid black;
+    font-family: 'Century Gothic';
+    width:200px;
+    background-color: white;
+    color: black;
+}
+.res .bttn:hover{
+    background: gray;
+    transition-duration: 0.5
+}
+.res p{
+    font-family: 'Century Gothic';
+}
+.ff{
+    padding: 5%;
+    background-image:
+    linear-gradient(180deg,
+    rgb(0, 9, 9),
+    rgba(0, 0, 0, 0.5)),url("g7.jpg");
+    color: white;
+}
